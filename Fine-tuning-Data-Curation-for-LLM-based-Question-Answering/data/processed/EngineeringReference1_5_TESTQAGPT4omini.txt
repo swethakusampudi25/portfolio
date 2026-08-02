@@ -1,0 +1,86 @@
+chunk i = 0
+```json
+[
+    { "question": "What is the purpose of EnergyPlus and what key components does it include for building energy simulation?", "answer": "EnergyPlus is a comprehensive building energy simulation program designed to model and analyze energy systems in buildings, incorporating various components such as HVAC systems, thermal models, airflow simulations, and detailed methodologies for heat balance, air system integration, and daylighting calculations." }
+]
+```chunk i = 1
+```json
+[
+    { "question": "What factors are considered in calculating the exterior heat transfer coefficient in building energy simulations?", "answer": "Factors such as surface roughness, wind speed, and surface orientation are considered." }
+]
+```chunk i = 2
+```json
+[
+    { "question": "What are the key components considered in the Green Roof Model (EcoRoof) for energy savings simulation?", "answer": "The Green Roof Model accounts for radiative exchange, convective heat transfer, evapotranspiration, and heat conduction in the soil layer." }
+]
+```chunk i = 3
+```json
+[
+    { "question": "What is the LBNL method used for in the context of fenestration systems?", "answer": "The LBNL method is used for characterizing scattering fenestration systems by approximating integrals with finite sums and calculating their optical properties, including transmission and reflection, without needing knowledge of individual layers." }
+]
+```chunk i = 4
+```json
+[
+    { "question": "How is the pump heat to fluid calculated in HVAC systems?", "answer": "The pump heat to fluid is calculated using the equation PH = PS + (P − PS) × Fmf, where PS is the shaft power, P is the pump power, and Fmf is the fractional motor loss to fluid." }
+]
+```chunk i = 5
+```json
+[
+    { "question": "What are the key components involved in the design and modeling of air system distribution terminals in HVAC applications?", "answer": "The key components include four-pipe beam systems, cooled beam units, and dual duct systems, each with specific methods for sizing and operating to meet ventilation, cooling, and heating requirements." }
+]
+```chunk i = 6
+```json
+[
+    { "question": "What is the purpose of the Load Factor (LF) in the context of DX cooling systems?", "answer": "The Load Factor (LF) represents the fractional 'on' time for reduced load points and is used to calculate part-load performance." }
+]
+```chunk i = 7
+```json
+[
+    { "question": "What are the different working modes of the ASIHP system?", "answer": "The ASIHP system includes Space Cooling Mode (SC), Space Heating Mode (SH), Dedicated Water Heating Mode (DWH), Combined Space Cooling and Water Heating with Full Condensing Mode (SCWH), Combined Space Cooling and Water Heating with Desuperheating Mode (SCDWH), and Combined Space Heating and Water Heating with Desuperheating Mode (SHDWH)." }
+]
+```chunk i = 8
+```json
+[
+    { "question": "What is the purpose of the Fan Energy Index (FEI) in HVAC systems?", "answer": "The Fan Energy Index (FEI) is a metric for comparing fan energy performance and is used in regulatory standards and utility rebate programs." }
+]
+```chunk i = 9
+```json
+[
+    { "question": "What happens when the heat pump's DX heating coil output is insufficient at full load?", "answer": "The remaining heating load is passed to the supplemental heating coil." }
+]
+```chunk i = 10
+```json
+[
+    { "question": "What is the formula for calculating the overall heat transfer coefficient (UA) in a balanced flow desiccant heat exchanger?", "answer": "UA = UAdes × (rhA + 1) / ((m_p,des × T_{p,des} / m_p × T_p)^{0.78} + rhA × (m_s,des × T_{s,des} / m_s × T_s)^{0.78})." }
+]
+```chunk i = 11
+```json
+[
+    { "question": "What factors influence the operation of pumps in a plant loop?", "answer": "Pumps can operate as constant or variable flow, run continuously or intermittently, and their placement in the supply or demand side of the plant loop affects their operation." }
+]
+```chunk i = 12
+```json
+[
+    { "question": "What factors influence the defrost cycle frequency and duration in refrigerated cases?", "answer": "The defrost cycle frequency and duration are influenced by manufacturer recommendations, the specific number of defrost cycles required per day, and the ambient air humidity levels surrounding the case." }
+]
+```chunk i = 13
+```json
+[
+    { "question": "What is the purpose of the Adaptive Comfort Model (EN15251-2007) in building energy management?", "answer": "The Adaptive Comfort Model is intended for naturally ventilated buildings and determines the acceptability of indoor conditions based on the 7-day weighted mean outdoor air temperature and the indoor operative temperature, categorizing comfort into three regions: Category I (90% Acceptability), Category II (80% Acceptability), and Category III (65% Acceptability)." }
+]
+```chunk i = 14
+```json
+[
+    { "question": "How does the PTAC system calculate the heating part-load ratio?", "answer": "The PTAC calculates the heating part-load ratio through iterative calculations that account for non-linear performance and fan heat variations, ensuring maximum possible heating if full-load heating is insufficient." }
+]
+```chunk i = 15
+```json
+[
+    { "question": "What is the purpose of the Hours of Safety framework developed by EPA and RMI?", "answer": "The Hours of Safety framework helps to understand how long a home can maintain safe indoor temperature levels during a power outage, based on building characteristics and energy efficiency levels." }
+]
+```chunk i = 16
+```json
+[
+    { "question": "What is the hot stress threshold temperature for indoor environments?", "answer": "The hot stress threshold is 86°F (30°C)." }
+]
+```
