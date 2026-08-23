@@ -1,0 +1,6 @@
+{
+  "Name": "ScreenPlayProcess",
+  "ProjectType": "Process",
+  "Description": "Using screenplay- just a prompt to be given and perform complex, uncapturable uielements ",
+  "MainFile": "Main.xaml"
+}
