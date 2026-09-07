@@ -1,0 +1,5 @@
+python -m pip install --upgrade pip
+python -m venv .venv
+.venv/scripts/activate.ps1
+pip install uipath-mcp
+uipath new codedMCP

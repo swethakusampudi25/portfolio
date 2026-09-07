@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "codedMCP": {
+        "transport": "stdio",
+        "command": "python",
+        "args": ["server.py"]
+    }
+  }
+}

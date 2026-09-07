@@ -1,0 +1,9 @@
+[project]
+name = "codedMCP"
+version = "0.0.1"
+description = "Description for codedMCP project"
+authors = [{ name = "John Doe", email = "john.doe@myemail.com" }]
+dependencies = [
+    "uipath-mcp>=0.0.107",
+]
+requires-python = ">=3.11"
