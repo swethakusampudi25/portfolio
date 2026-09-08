@@ -19,10 +19,10 @@ def read_file(path: str):
     if not os.path.exists(path):
         return f"File {path} does not exist"
 
-with open(path, "r") as file:
-    return file.read()
+    with open(path, "r") as file:
+        return file.read()
 
 
 if __name__ == "__main__":
-    mcp.run()
-    
+    mcp.run(transport="stdio")
+
